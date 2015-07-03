@@ -1,11 +1,14 @@
 JSX Syntax Highlighter
 =========
 JSX syntax highlighter based on Node friendly version of Alex Gorbachev's great SyntaxHighlighter.
+## Install
+	$ npm install node-syntaxhighlighter
+	$ npm install jsx-syntaxhighlighter
 
 ## Usage
 
 	var nsh      =  require('node-syntaxhighlighter')
-      , language =  require('./lib/shBrushJsx'); // usually load a bruns from nsh like : nsh.getLanguage('js')
+      , language =  require('jsx-syntaxhighlighter'); // usually load a bruns from nsh like : nsh.getLanguage('js')
 
         var code = require('fs').readFileSync('./example.jsx', 'utf-8');
         var result = nsh.highlight(code, language);
