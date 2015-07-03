@@ -1,6 +1,6 @@
-JSX Syntax Highlighter
+JSX Syntax Highlighter 
 =========
-JSX syntax highlighter based on Node friendly version of Alex Gorbachev's great SyntaxHighlighter.
+JSX syntax highlighter <em>Brush</em> based on [Node friendly version of Alex Gorbachev's great SyntaxHighlighter](https://github.com/sravanrekandar/node-syntaxhighlighter).
 ## Install
 	$ npm install node-syntaxhighlighter
 	$ npm install jsx-syntaxhighlighter
