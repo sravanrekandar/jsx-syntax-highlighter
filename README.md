@@ -20,4 +20,4 @@ JSX syntax highlighter based on Node friendly version of Alex Gorbachev's great 
   
 ## Release History
 
-* 0.0.1 Initial release
+* 0.1.0

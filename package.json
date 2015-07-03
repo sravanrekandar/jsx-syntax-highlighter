@@ -1,6 +1,6 @@
 {
   "name": "jsx-syntaxhighlighter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "jsx brush for node-syntaxhighlighter",
   "main": "shBrushJsx.js",
   "scripts": {
