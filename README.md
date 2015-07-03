@@ -8,7 +8,7 @@ JSX syntax highlighter <em>Brush</em> based on [Node friendly version of Alex Go
 ## Usage
 
 	var nsh      =  require('node-syntaxhighlighter')
-      , language =  require('jsx-syntaxhighlighter'); // usually load a bruns from nsh like : nsh.getLanguage('js')
+      , language =  require('jsx-syntaxhighlighter'); // usually load a brush from nsh like : nsh.getLanguage('js')
 
         var code = require('fs').readFileSync('./example.jsx', 'utf-8');
         var result = nsh.highlight(code, language);
