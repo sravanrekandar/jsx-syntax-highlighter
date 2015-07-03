@@ -1,5 +1,5 @@
 {
-  "name": "jsx-highlighter",
+  "name": "jsx-syntaxhighlighter",
   "version": "0.0.1",
   "description": "jsx brush for node-syntaxhighlighter",
   "main": "shBrushJsx.js",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sravanrekandar/jsx-syntax-highlighter"
+    "url": "https://github.com/sravanrekandar/jsx-syntaxhighlighter"
   },
   "author": "SRAVAN REKANDAR <sravanrekandar@gmail.com>",
   "license": "MIT",
