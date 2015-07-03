@@ -5,12 +5,12 @@ JSX syntax highlighter based on Node friendly version of Alex Gorbachev's great 
 ## Usage
 
 	var nsh      =  require('node-syntaxhighlighter')
-  , language =  require('jsx-syntax-highlighter'); // usually load a brush from nsh. eg : nsh.getLanguage('js')
+      , language =  require('./lib/shBrushJsx'); // usually load a bruns from nsh like : nsh.getLanguage('js')
 
-	var code = require('fs').readFileSync('./example.jsx', 'utf-8');
-	var result = nsh.highlight(code, language);
+        var code = require('fs').readFileSync('./example.jsx', 'utf-8');
+        var result = nsh.highlight(code, language);
 
-	console.log('Result:\n' + result);
+        console.log('Result:\n' + result);
 ## Tests
 
   npm test
